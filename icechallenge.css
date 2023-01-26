@@ -1,0 +1,29 @@
+p:nth-child(4),
+h1:nth-child(1) {
+    color: white;
+    background-color: pink;
+}
+   
+.blackText {
+    color: black;
+    text-align: center;
+    border: 3px;
+    background-color: pink;
+    font-size: 200;
+}
+
+.whiteText{
+    color: white;
+    text-align: center;
+    border: 3px;
+    background-color: pink;
+    font-size: 200;
+}
+
+#bigText {
+    font-size: 300%;
+    text-align: center;
+    border: 3px;
+    background-color: pink;
+    font-size: 200;
+}
