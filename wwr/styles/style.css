@@ -1,3 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Signika+Negative&display=swap');
+
+
+
+.home-title {
+    font-family: 'Signika Negative', Lora;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +18,7 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -27,7 +39,11 @@ main section {
 }
 
 body {
-    background-color: #fcfbfb; 
+    background-color: #fcfbfb;
+    font-family: 'Signika Negative', Lora;
+    font-size: 22px;
+    margin: 0;
+    padding: 0; 
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -41,6 +57,9 @@ nav a:hover {
     background-color: aquamarine;
     color: darkblue;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -50,11 +69,15 @@ nav a:hover {
 
 .msg {
     background-color: bisque;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: palevioletred;
     color: darkblue;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title {
@@ -71,6 +94,7 @@ h4 {
 
 .msg p {
     color: darkblue;
+    padding-bottom: 15px;
 }
 
 footer a {
@@ -84,6 +108,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
@@ -101,3 +126,27 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
+}

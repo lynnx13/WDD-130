@@ -1,0 +1,22 @@
+.column {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+.desk {
+    width: 200px;
+    border-radius: 50%;
+    
+}
+
+.graphic {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.person {
+    width: 200px;
+    border-radius: 50%;
+}
