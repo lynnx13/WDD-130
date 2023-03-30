@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Signika+Negative&display=swap');
+
+
+
+.home-title {
+    font-family: 'Signika Negative', Lora;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+    color: #EEEEfF;
+    text-decoration: none;
+    padding: 35px;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+    color: #264653;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: tan;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+body {
+    background-color: #A37774;
+    font-family: 'Signika Negative', Lora;
+    font-size: 22px;
+    margin: 0;
+    padding: 0; 
+}
+header {
+    background-color:rgba(20,30,13, .7);
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav a:hover {
+    background-color: black;
+    color: #A37774;
+}
+
+.msg {
+    background-color: bisque;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+footer {
+    background-color: tan;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text1 {
+    text-align: center;
+}
+
+.image2 {
+    width: 100px;
+}
+
+.flex-parent-element {
+    display: flex;
+    width: 100%;
+  }
+  
+  .flex-child-element {
+    flex: 1;
+    margin: 10px;
+    
+  }
+  
+  .flex-child-element:first-child {
+    margin-right: 20px;
+  }
+
+  
+.imageidk {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.maintext {
+    text-align: center;
+}
+
+
+
+.home-title {
+    color: #AABD8C;
+}
+
+h4 {
+    color: #AABD8C;
+}
+
+.msg h2 {
+    color: white;
+}
+
+.msg p {
+    color: black;
+    padding-bottom: 15px;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+.logo {
+    width: 80px;
+}
+
+footer p {
+    font-size: 1.2em;
+}    
+
+footer p a:hover {
+    text-decoration: underline;
+}    
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
